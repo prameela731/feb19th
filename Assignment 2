@@ -1,0 +1,19 @@
+def myprime(n):
+   for i in range(2,n):
+       if n%i==0:
+           return false
+   return True
+        t=int(input)
+   for i in range(t):
+     n=input().split('')
+     x=int(x[0])
+     y=int(x[1])
+     c=0
+     for i in range(start+1,end):
+           if myprime(i):
+              c+=1
+     print(c)
+1
+4
+2
+8
